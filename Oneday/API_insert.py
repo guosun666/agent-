@@ -10,7 +10,10 @@ response = client.chat.completions.create(
         {"role":"system","content":"你是一个前端专家，简洁回答问题"},
         {"role":"assistant","content":"你好，你有什么问题来问我"},
         {"role":"user","content":"我想学习前端，你有什么推荐吗？"}],
-        stream=True
+        stream=True #开启了流式输出的功能
 )
 for chunk in response:
-    print(chunk.choices[0].delta.content,end="",flush=True)
+    print(chunk.choices[0].delta.content,
+    end="", #每一段用空来进行分割
+    flush=True #立刻刷新缓冲区
+    )
