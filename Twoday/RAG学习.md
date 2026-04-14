@@ -61,7 +61,7 @@ from langchain_community.embeddings import DashScopeEmbeddings
 
 model = DashScopeEmbeddings(
     model="text-embedding-v1",
-    dashscope_api_key="sk-e90151cacd374f6b865b54c2fe14f1fd",
+    dashscope_api_key="###",
 )
 
 print(model.embed_query("我喜欢你"))
@@ -85,7 +85,7 @@ prompt_template = PromptTemplate.from_template(
 prompt_text = prompt_template.format(last_name="张",first_name="三",age=18)
 
 调用大模型去回答
-model = Tongyi(model="qwen-turbo", api_key="sk-e90151cacd374f6b865b54c2fe14f1fd")
+model = Tongyi(model="qwen-turbo", api_key="###")
 res = model.invoke(prompt_text)
 print(res)
 
@@ -116,7 +116,7 @@ few_shot_prompt_template = FewShotPromptTemplate(
 进行信息注入（**invoke方法**）
 res = few_shot_prompt_template.invoke({"input":"left"}).to_string()
 调用模型
-model = Tongyi(model="qwen-turbo", api_key="sk-e90151cacd374f6b865b54c2fe14f1fd")
+model = Tongyi(model="qwen-turbo", api_key="###")
 print(model.invoke(res))
 
 ## format和invoke的方法
