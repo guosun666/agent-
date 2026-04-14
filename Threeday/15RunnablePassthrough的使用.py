@@ -30,7 +30,7 @@ def format_func(docs):
 
 def print_func(output):
     print("-"*100)
-    print(output.to_string())
+    print(output.to_string()) 
     print("-"*100)
     return output
 

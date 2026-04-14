@@ -17,7 +17,7 @@ splitter = RecursiveCharacterTextSplitter(
 
 splits = splitter.split_documents(documents)    #将一个Document对象分割为多个Document对象
 
-print(len(splits))
+print(type(splits))
 for split in splits:
     print("-"*100)
     print(split)
