@@ -42,7 +42,7 @@ def print_func(output):
 #         -输入：用户的提问+向量库的检索结果     dict/list[dict]
 #         -输出：完整的提示词       PromptValue
 
-# langchain中向量存储对象，有一种方法：as_retriever()，可以返回一个Runnable接口的子类实例对象可以入链
+# langchain中向量存储对象，有一种方法：as_retriever()，可以返回一个Runnable接口的子类实例对象可以入链，获得一个向量检索器
 retriever = vector_store.as_retriever(search_kwargs={"k": 2})
 
 chain = ({"context":retriever | format_func,"input":RunnablePassthrough()}| prompt | print_func | model | StrOutputParser())
