@@ -1,3 +1,5 @@
-# Python virtual environments under Fourday (do not commit)
+# Python virtual environments (do not commit)
 Fourday/.venv/
 Fourday/**/.venv/
+Saturday/.venv/
+Saturday/**/.venv/

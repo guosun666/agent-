@@ -1,0 +1,4 @@
+2026-04-20 18:36:02,903 - agent - INFO - logger_handler.py:75 - 这是一个测试日志
+2026-04-20 18:36:02,903 - agent - WARNING - logger_handler.py:76 - 这是一个警告日志
+2026-04-20 18:36:02,904 - agent - ERROR - logger_handler.py:77 - 这是一个错误日志
+2026-04-20 18:36:02,904 - agent - DEBUG - logger_handler.py:78 - 这是一个调试日志
