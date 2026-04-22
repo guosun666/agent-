@@ -1,6 +1,6 @@
 import os 
 import hashlib
-from logger_handler import logger
+from utils.logger_handler import logger
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.document_loaders import TextLoader
 from langchain_core.documents import Document
@@ -40,7 +40,7 @@ def listdir_with_allowed_type(path:str,allowed_types:tuple[str]):
     # 如果文件夹不存在,则返回空列表
     if not os.path.exists(path):
         logger.error(f"[listdir_with_allowed_type]{path}不是文件夹")
-        return allowed_types
+        return tuple()
 
     #遍历文件夹下的文件,如果文件的类型符合allowed_types,则将文件添加到files列表中
     for f in os.listdir(path):
@@ -54,4 +54,4 @@ def pdf_loader(filepath:str,passwd=None):
 
 #加载txt文件,返回类型是list[Document]
 def txt_loader(filepath:str):
-    return TextLoader(filepath).load()
+    return TextLoader(filepath,encoding="utf-8").load()

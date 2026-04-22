@@ -1,6 +1,11 @@
-from path_tool import get_abs_path
-from config_handler import prompts_conf
-from logger_handler import logger
+"""
+将提示词从txt文件当中取出，并返回文本中的内容字符串。
+"""
+
+
+from utils.path_tool import get_abs_path
+from utils.config_handler import prompts_conf
+from utils.logger_handler import logger
 
 
 #except Exception是捕获所有异常

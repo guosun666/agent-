@@ -1,0 +1,4 @@
+# 避免默认文件监视器遍历 site-packages（会碰到 transformers → torch），
+# 在部分 Windows 环境若 PyTorch DLL 异常会刷屏报错；关闭后需改代码时手动刷新页面。
+[server]
+fileWatcherType = "none"

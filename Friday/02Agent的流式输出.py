@@ -21,7 +21,7 @@ res = agent.stream({
         {"role":"user","content":"传智教育股价多少，并介绍一下"}
     ]
 },
-stream_mode = "values")
+stream_mode = "values")    #stream_mode = "values" 是流式输出的模式，返回的是值，而不是消息
 
 for chunk in res:
     latest_message = chunk["messages"][-1]

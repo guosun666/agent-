@@ -13,6 +13,7 @@ class VectorStoreService(object):
             )
     
     def get_retriever(self):
+        #检索器
         return self.vector_store.as_retriever(search_kwargs={"k": config.similarity_threshold})
     
 if __name__ == "__main__":

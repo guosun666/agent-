@@ -1,0 +1,66 @@
+2026-04-21 16:31:26,034 - agent - INFO - vector_store.py:113 - [vector_store] 开始：创建向量服务…
+2026-04-21 16:31:26,128 - agent - INFO - vector_store.py:113 - [vector_store] 开始：加载本地文档…
+2026-04-21 16:34:12,620 - agent - INFO - vector_store.py:137 - [vector_store] 开始：创建向量服务…
+2026-04-21 16:34:12,728 - agent - INFO - vector_store.py:137 - [vector_store] 开始：加载本地文档…
+2026-04-21 16:34:12,728 - agent - INFO - vector_store.py:78 - [加载知识库] 数据目录(绝对路径): D:\Agent\agent-\Saturday\data
+2026-04-21 16:34:12,730 - agent - INFO - file_handler.py:73 - [listdir_with_allowed_type] 在 D:\Agent\agent-\Saturday\data 找到 6 个匹配文件
+2026-04-21 16:34:12,731 - agent - INFO - vector_store.py:85 - [加载知识库] 符合后缀的文件数: 6
+2026-04-21 16:36:48,560 - agent - INFO - vector_store.py:173 - [vector_store] 开始：创建向量服务…
+2026-04-21 16:36:48,655 - agent - INFO - vector_store.py:173 - [vector_store] 开始：加载本地文档…
+2026-04-21 16:36:48,655 - agent - INFO - vector_store.py:82 - [加载知识库] 数据目录(绝对路径): D:\Agent\agent-\Saturday\data
+2026-04-21 16:36:48,656 - agent - INFO - file_handler.py:73 - [listdir_with_allowed_type] 在 D:\Agent\agent-\Saturday\data 找到 6 个匹配文件
+2026-04-21 16:36:48,657 - agent - INFO - vector_store.py:89 - [加载知识库] 符合后缀的文件数: 6
+2026-04-21 16:36:48,657 - agent - INFO - vector_store.py:173 - [vector_store] 正在调用嵌入接口做连通性检测（失败则不会入库）…
+2026-04-21 16:36:49,391 - agent - INFO - vector_store.py:173 - [vector_store] 嵌入接口检测通过。
+2026-04-21 16:36:49,391 - agent - INFO - vector_store.py:173 - [vector_store] [1/6] 开始处理: D:\Agent\agent-\Saturday\data\扫地机器人100问.pdf
+2026-04-21 16:36:49,394 - agent - INFO - vector_store.py:173 - [vector_store] [1/6] 读取文档…
+2026-04-21 16:36:50,018 - agent - INFO - vector_store.py:173 - [vector_store] [1/6] 分片中…（原始块数 8）
+2026-04-21 16:36:50,020 - agent - INFO - vector_store.py:173 - [vector_store] [1/6] 写入 Chroma（共 33 条，每批 16）…
+2026-04-21 17:20:02,070 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问.pdf 内容加载成功
+2026-04-21 17:20:06,851 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问2.txt 内容加载成功
+2026-04-21 17:20:12,470 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\扫拖一体机器人100问.txt 内容加载成功
+2026-04-21 17:20:22,692 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\故障排除.txt 内容加载成功
+2026-04-21 17:20:29,003 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\维护保养.txt 内容加载成功
+2026-04-21 17:20:33,976 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\选购指南.txt 内容加载成功
+2026-04-21 17:28:54,596 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问.pdf内容已经存在知识库内，跳过
+2026-04-21 17:28:54,597 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问2.txt内容已经存在知识库内，跳过
+2026-04-21 17:28:54,598 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\扫拖一体机器人100问.txt内容已经存在知识库内，跳过
+2026-04-21 17:28:54,600 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\故障排除.txt内容已经存在知识库内，跳过
+2026-04-21 17:28:54,603 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\维护保养.txt内容已经存在知识库内，跳过
+2026-04-21 17:28:54,604 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\选购指南.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:10,354 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问.pdf内容已经存在知识库内，跳过
+2026-04-21 17:39:10,355 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问2.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:10,357 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\扫拖一体机器人100问.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:10,358 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\故障排除.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:10,359 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\维护保养.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:10,360 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\选购指南.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:44,027 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问.pdf内容已经存在知识库内，跳过
+2026-04-21 17:39:44,028 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问2.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:44,029 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\扫拖一体机器人100问.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:44,030 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\故障排除.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:44,031 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\维护保养.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:44,032 - agent - INFO - vector_store.py:75 - [加载知识库]D:\Agent\agent-\Saturday\data\选购指南.txt内容已经存在知识库内，跳过
+2026-04-21 17:39:58,339 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问.pdf 内容加载成功
+2026-04-21 17:40:03,179 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问2.txt 内容加载成功
+2026-04-21 17:40:08,698 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\扫拖一体机器人100问.txt 内容加载成功
+2026-04-21 17:40:19,351 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\故障排除.txt 内容加载成功
+2026-04-21 17:40:25,066 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\维护保养.txt 内容加载成功
+2026-04-21 17:40:30,158 - agent - INFO - vector_store.py:97 - [加载知识库]D:\Agent\agent-\Saturday\data\选购指南.txt 内容加载成功
+2026-04-21 21:12:33,421 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问.pdf内容已经存在知识库内，跳过
+2026-04-21 21:12:33,424 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问2.txt内容已经存在知识库内，跳过
+2026-04-21 21:12:33,426 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\扫拖一体机器人100问.txt内容已经存在知识库内，跳过
+2026-04-21 21:12:33,428 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\故障排除.txt内容已经存在知识库内，跳过
+2026-04-21 21:12:33,430 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\维护保养.txt内容已经存在知识库内，跳过
+2026-04-21 21:12:33,431 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\选购指南.txt内容已经存在知识库内，跳过
+2026-04-21 21:16:29,747 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问.pdf内容已经存在知识库内，跳过
+2026-04-21 21:16:29,749 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问2.txt内容已经存在知识库内，跳过
+2026-04-21 21:16:29,750 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\扫拖一体机器人100问.txt内容已经存在知识库内，跳过
+2026-04-21 21:16:29,751 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\故障排除.txt内容已经存在知识库内，跳过
+2026-04-21 21:16:29,752 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\维护保养.txt内容已经存在知识库内，跳过
+2026-04-21 21:16:29,753 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\选购指南.txt内容已经存在知识库内，跳过
+2026-04-21 21:22:33,026 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问.pdf内容已经存在知识库内，跳过
+2026-04-21 21:22:33,027 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\扫地机器人100问2.txt内容已经存在知识库内，跳过
+2026-04-21 21:22:33,028 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\扫拖一体机器人100问.txt内容已经存在知识库内，跳过
+2026-04-21 21:22:33,029 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\故障排除.txt内容已经存在知识库内，跳过
+2026-04-21 21:22:33,030 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\维护保养.txt内容已经存在知识库内，跳过
+2026-04-21 21:22:33,031 - agent - INFO - vector_store.py:93 - [加载知识库]D:\Agent\agent-\Saturday\data\选购指南.txt内容已经存在知识库内，跳过

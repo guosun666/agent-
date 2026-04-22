@@ -1,0 +1,12 @@
+# 在 Saturday 目录下用 venv 安装: .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+langchain-chroma>=0.1.4,<2
+langchain-community>=0.3,<1
+langchain-core>=0.3,<2
+langchain-text-splitters>=0.3,<2
+chromadb>=0.5,<2
+dashscope>=1.14
+pyyaml>=6
+pypdf>=4
+numpy>=1.26
+# 若本机 1.24.x 报 DLL 错误，可改为 1.17.3 等较低版本再试
+onnxruntime>=1.17.3,<2

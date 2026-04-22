@@ -1,0 +1,126 @@
+2026-04-22 17:56:55,615 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有1条消息
+2026-04-22 17:56:55,615 - agent - DEBUG - middleware.py:55 - [log before model]HumanMessage | 根据我的位置，保养机器人的建议
+2026-04-22 18:01:15,209 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有1条消息
+2026-04-22 18:01:15,210 - agent - DEBUG - middleware.py:55 - [log before model]HumanMessage | 根据你的位置，给出保养机器人的建议
+2026-04-22 18:01:19,287 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_user_location
+2026-04-22 18:01:19,287 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:01:19,288 - agent - INFO - middleware.py:37 - [tool monitor]工具get_user_location调用成功
+2026-04-22 18:01:19,289 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有3条消息
+2026-04-22 18:01:19,290 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 天津
+2026-04-22 18:01:23,530 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_weather
+2026-04-22 18:01:23,531 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'city': '天津'}
+2026-04-22 18:01:23,533 - agent - INFO - middleware.py:37 - [tool monitor]工具get_weather调用成功
+2026-04-22 18:01:23,534 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有5条消息
+2026-04-22 18:01:23,535 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 城市天津天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-04-22 18:01:28,564 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：rag_summarize
+2026-04-22 18:01:28,565 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'query': '中等湿度晴天环境下扫地机器人保养建议'}
+2026-04-22 18:01:28,566 - agent - INFO - rag_service.py:49 - [rag_summarize] start query=中等湿度晴天环境下扫地机器人保养建议
+2026-04-22 18:10:45,412 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有1条消息
+2026-04-22 18:10:45,413 - agent - DEBUG - middleware.py:55 - [log before model]HumanMessage | 根据我的位置，给出机器人保养建议
+2026-04-22 18:10:50,350 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_user_location
+2026-04-22 18:10:50,351 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:10:50,352 - agent - INFO - middleware.py:37 - [tool monitor]工具get_user_location调用成功
+2026-04-22 18:10:50,354 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有3条消息
+2026-04-22 18:10:50,354 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 武汉
+2026-04-22 18:10:55,004 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_weather
+2026-04-22 18:10:55,004 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'city': '武汉'}
+2026-04-22 18:10:55,005 - agent - INFO - middleware.py:37 - [tool monitor]工具get_weather调用成功
+2026-04-22 18:10:55,007 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有5条消息
+2026-04-22 18:10:55,007 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 城市武汉天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-04-22 18:11:01,242 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：rag_summarize
+2026-04-22 18:11:01,242 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'query': '扫地机器人在湿度50%晴天环境下的保养建议'}
+2026-04-22 18:14:40,939 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有1条消息
+2026-04-22 18:14:40,939 - agent - DEBUG - middleware.py:55 - [log before model]HumanMessage | 在我城市的当前天气下，机器人该如何保养
+2026-04-22 18:14:44,665 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_user_location
+2026-04-22 18:14:44,665 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:14:44,667 - agent - INFO - middleware.py:37 - [tool monitor]工具get_user_location调用成功
+2026-04-22 18:14:44,701 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有3条消息
+2026-04-22 18:14:44,701 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 北京
+2026-04-22 18:14:47,698 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_weather
+2026-04-22 18:14:47,698 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'city': '北京'}
+2026-04-22 18:14:47,699 - agent - INFO - middleware.py:37 - [tool monitor]工具get_weather调用成功
+2026-04-22 18:14:48,236 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有5条消息
+2026-04-22 18:14:48,237 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 城市北京天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-04-22 18:14:51,859 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：rag_summarize
+2026-04-22 18:14:51,859 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'query': '晴天干燥环境下扫地机器人保养方法'}
+2026-04-22 18:16:19,823 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有1条消息
+2026-04-22 18:16:19,824 - agent - DEBUG - middleware.py:55 - [log before model]HumanMessage | 生成我的使用报告
+2026-04-22 18:16:24,124 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：fill_context_for_report
+2026-04-22 18:16:24,126 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:16:24,127 - agent - INFO - middleware.py:37 - [tool monitor]工具fill_context_for_report调用成功
+2026-04-22 18:16:24,434 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有3条消息
+2026-04-22 18:16:24,435 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | fill_context_for_report已经调用
+2026-04-22 18:16:26,523 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_user_id
+2026-04-22 18:16:26,524 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:16:26,526 - agent - INFO - middleware.py:37 - [tool monitor]工具get_user_id调用成功
+2026-04-22 18:16:26,581 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有5条消息
+2026-04-22 18:16:26,582 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 1006
+2026-04-22 18:16:28,124 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_current_month
+2026-04-22 18:16:28,125 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:16:28,126 - agent - INFO - middleware.py:37 - [tool monitor]工具get_current_month调用成功
+2026-04-22 18:16:28,214 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有7条消息
+2026-04-22 18:16:28,215 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 2025-01
+2026-04-22 18:16:32,438 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：fetch_external_data
+2026-04-22 18:16:32,438 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'user_id': '1006', 'month': '2025-01'}
+2026-04-22 18:16:32,441 - agent - INFO - middleware.py:37 - [tool monitor]工具fetch_external_data调用成功
+2026-04-22 18:16:33,652 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有9条消息
+2026-04-22 18:16:33,652 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | {"特征": "150㎡别墅 | 儿童 | 多层", "效率": "跨楼层失败:3次/周\\n玩具避障率:76%", "耗材": "边刷更换:2次/季度\\n集尘袋消耗:1个/月", "对比": "建议增加机械臂配件"}
+2026-04-22 18:16:36,730 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：rag_summarize
+2026-04-22 18:16:36,730 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'query': '多层别墅扫地机器人使用建议'}
+2026-04-22 18:17:02,272 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有1条消息
+2026-04-22 18:17:02,272 - agent - DEBUG - middleware.py:55 - [log before model]HumanMessage | 给我生成我的使用报告
+2026-04-22 18:17:04,970 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_user_id
+2026-04-22 18:17:04,970 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:17:04,972 - agent - INFO - middleware.py:37 - [tool monitor]工具get_user_id调用成功
+2026-04-22 18:17:04,973 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有3条消息
+2026-04-22 18:17:04,973 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 1001
+2026-04-22 18:17:06,569 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_current_month
+2026-04-22 18:17:06,569 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:17:06,570 - agent - INFO - middleware.py:37 - [tool monitor]工具get_current_month调用成功
+2026-04-22 18:17:06,572 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有5条消息
+2026-04-22 18:17:06,572 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 2025-12
+2026-04-22 18:17:09,347 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：fill_context_for_report
+2026-04-22 18:17:09,348 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:17:09,348 - agent - INFO - middleware.py:37 - [tool monitor]工具fill_context_for_report调用成功
+2026-04-22 18:17:09,350 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有7条消息
+2026-04-22 18:17:09,351 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | fill_context_for_report已经调用
+2026-04-22 18:17:11,752 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：fetch_external_data
+2026-04-22 18:17:11,753 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'user_id': '1001', 'month': '2025-12'}
+2026-04-22 18:17:11,754 - agent - INFO - middleware.py:37 - [tool monitor]工具fetch_external_data调用成功
+2026-04-22 18:17:11,755 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有9条消息
+2026-04-22 18:17:11,756 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | {"特征": "65㎡公寓 | 单身 | 木地板", "效率": "覆盖率:90%\\n日均清扫:50㎡\\n无漏扫区域", "耗材": "主刷寿命:剩余30天\\nHEPA滤网:剩余10%", "对比": "优于85%同面积用户（清洁效率满分）"}
+2026-04-22 18:17:15,008 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：rag_summarize
+2026-04-22 18:17:15,008 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'query': '扫地机器人耗材更换周期和保养建议'}
+2026-04-22 18:17:20,161 - agent - INFO - middleware.py:37 - [tool monitor]工具rag_summarize调用成功
+2026-04-22 18:17:20,161 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有11条消息
+2026-04-22 18:17:20,162 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 扫地机器人耗材更换周期和保养建议如下：每次清扫完成后，需及时清理主刷、尘盒及拖布；每日使用后用干软布擦拭机身外壳；清理防撞条缝隙中的毛发和线头；在宠物家庭中，耗材更换周期应缩短50%；水泥地或老旧地砖环境需清扫后立即清理机身底部和轮组的泥沙；短毛地毯环境下使用地毯增压功能后应检查主刷是否复位，并每周清理地毯边缘灰尘。
+2026-04-22 18:23:29,437 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有1条消息
+2026-04-22 18:23:29,438 - agent - DEBUG - middleware.py:55 - [log before model]HumanMessage | 根据我的位置，提供保养机器人的建议
+2026-04-22 18:23:32,069 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_user_location
+2026-04-22 18:23:32,069 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:23:32,071 - agent - INFO - middleware.py:37 - [tool monitor]工具get_user_location调用成功
+2026-04-22 18:23:32,072 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有3条消息
+2026-04-22 18:23:32,072 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 南京
+2026-04-22 18:23:34,788 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_weather
+2026-04-22 18:23:34,788 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'city': '南京'}
+2026-04-22 18:23:34,789 - agent - INFO - middleware.py:37 - [tool monitor]工具get_weather调用成功
+2026-04-22 18:23:34,791 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有5条消息
+2026-04-22 18:23:34,791 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 城市南京天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-04-22 18:23:38,994 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：rag_summarize
+2026-04-22 18:23:38,994 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'query': '扫地机器人保养建议 环境湿度50% 温度26℃'}
+2026-04-22 18:34:32,736 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有1条消息
+2026-04-22 18:34:32,737 - agent - DEBUG - middleware.py:55 - [log before model]HumanMessage | 你好
+2026-04-22 18:34:59,287 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有1条消息
+2026-04-22 18:34:59,287 - agent - DEBUG - middleware.py:55 - [log before model]HumanMessage | 你知道我的位置吗，根据我的位置给出保养机器人的建议
+2026-04-22 18:35:01,937 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_user_location
+2026-04-22 18:35:01,938 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{}
+2026-04-22 18:35:01,938 - agent - INFO - middleware.py:37 - [tool monitor]工具get_user_location调用成功
+2026-04-22 18:35:01,940 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有3条消息
+2026-04-22 18:35:01,940 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 上海
+2026-04-22 18:35:05,399 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：get_weather
+2026-04-22 18:35:05,399 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'city': '上海'}
+2026-04-22 18:35:05,400 - agent - INFO - middleware.py:37 - [tool monitor]工具get_weather调用成功
+2026-04-22 18:35:05,402 - agent - INFO - middleware.py:54 - [log before model]即将调用模型，带有5条消息
+2026-04-22 18:35:05,402 - agent - DEBUG - middleware.py:55 - [log before model]ToolMessage | 城市上海天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-04-22 18:35:09,300 - agent - INFO - middleware.py:32 - [tool monitor]执行工具：rag_summarize
+2026-04-22 18:35:09,300 - agent - INFO - middleware.py:33 - [tool monitor]执行参数：{'query': '扫地机器人在温度26度湿度50%环境下的保养建议'}
